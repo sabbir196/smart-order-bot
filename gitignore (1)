@@ -1,0 +1,30 @@
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# n8n local runtime files
+.n8n/
+n8n_data/
+*.sqlite
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Node (if you add scripts later)
+node_modules/
+npm-debug.log*
+
+# Misc exports that may contain real data
+*_export.json
+*-backup.json
